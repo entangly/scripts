@@ -6,3 +6,5 @@ function cd {
 PS1='\[\e[1;31m\][\u@\h \W]\$\[\e[0m\] '
 
 alias venv='source venv/bin/activate'
+
+alias emacs='emacs -nw'
