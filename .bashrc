@@ -6,5 +6,5 @@ function cd {
 PS1='\[\e[1;31m\][\u@\h \W]\$\[\e[0m\] '
 
 alias venv='source venv/bin/activate'
-
+alias run='python manage.py runserver 0.0.0.0:8000'
 alias emacs='emacs -nw'
