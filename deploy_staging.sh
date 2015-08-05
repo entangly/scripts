@@ -7,9 +7,9 @@ then
 fi
 echo "Tests passed"
 heroku maintenance:on --remote staging
-heroku ps:scale worker=0
+heroku ps:scale worker=0 --remote staging
 git push staging master
 heroku run python manage.py migrate --remote staging
-heroku ps:scale worker=1
+heroku ps:scale worker=1 --remote staging
 heroku maintenance:off --remote staging
 echo "Deployed!!!"
