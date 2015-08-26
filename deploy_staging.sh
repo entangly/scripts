@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 venv
 python manage.py test
 if [ $? -gt 0 ]
