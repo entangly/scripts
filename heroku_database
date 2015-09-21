@@ -1,0 +1,2 @@
+# Way of accessing the psql of the heroku database
+heroku pg:psql
