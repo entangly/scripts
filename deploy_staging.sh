@@ -8,6 +8,11 @@ then
 fi
 echo "Tests passed"
 heroku maintenance:on --remote staging
+if [ $? -gt 0 ]
+then
+    echo "Can't access heroku, not deploying"
+    return
+fi
 heroku ps:scale worker=0 --remote staging
 git push staging master
 heroku run python manage.py migrate --remote staging
