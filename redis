@@ -5,3 +5,5 @@ redis-cli
 
 
 flushdb     (Clears redis queue)
+
+https://devcenter.heroku.com/articles/python-rq
