@@ -7,6 +7,7 @@ then
     return
 fi
 echo "Tests passed"
+heroku accounts:set twizz
 heroku maintenance:on --remote staging
 if [ $? -gt 0 ]
 then
