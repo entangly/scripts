@@ -2,3 +2,8 @@ sudo service redis_6379 start
 sudo service redis_6379 stop
 
 redis-cli
+
+
+flushdb     (Clears redis queue)
+
+https://devcenter.heroku.com/articles/python-rq
