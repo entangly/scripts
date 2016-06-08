@@ -9,6 +9,12 @@ else
     echo "Cancelling, nothing has happened"
     return
 fi
+python manage.py check
+if [ $? -gt 0 ]
+then
+    echo "Django check failed, not deploying"
+    return
+fi
 python manage.py test
 if [ $? -gt 0 ]
 then
