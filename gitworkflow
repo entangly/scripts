@@ -1,0 +1,13 @@
+New branch
+ # Check that master is updated by doing git pull origin master
+ git checkout -b new_branch origin/master
+ 
+Rebase from updated master branch
+
+  # Check that master is fully updated
+  # Switch to feature branch
+  # git rebase origin/master
+  
+  
+Use git push origin feature -f if it's rebased
+ 
