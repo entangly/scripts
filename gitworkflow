@@ -11,3 +11,6 @@ Rebase from updated master branch
   
 Use git push origin feature -f if it's rebased
  
+To try out a pull request locally
+
+   git fetch origin pull/<number>/head:pr-<number>
