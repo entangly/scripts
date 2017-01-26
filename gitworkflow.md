@@ -32,5 +32,9 @@
       git reset --hard HEAD~3 # Go back 3 commits. You *will* lose uncommitted work.*1
       git checkout newbranch
    
-   
+ 
+## If you need to change the logged in GitHub user
+      git config --global user.name "Bob"
+      git config --global user.email "bob@example.com"
 
+      // For more info check out [here](http://superuser.com/a/1064244)
