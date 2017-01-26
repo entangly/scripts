@@ -37,4 +37,7 @@
       git config --global user.name "Bob"
       git config --global user.email "bob@example.com"
 
-      // For more info check out [here](http://superuser.com/a/1064244)
+      // For more info check out http://superuser.com/a/1064244
+      
+      
+For Markdown help -[link](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf)
