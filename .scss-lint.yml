@@ -1,0 +1,11 @@
+linters:
+  PropertySortOrder:
+    enabled: false
+  IdSelector:
+    enabled: false
+  SelectorDepth:
+    enabled: false
+  QualifyingElement:
+    enabled: false
+  NestingDepth:
+    max_depth: 4
