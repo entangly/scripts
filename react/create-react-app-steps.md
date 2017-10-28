@@ -56,8 +56,10 @@
   
 15. Add `style/index.scss` (just import normalize for now)
 
-16. Initialize Git Repo, and push.
+16. Add `/.sass-cache` to `.gitignore`
 
-17. Code website
+17. Initialize Git Repo, and push.
 
-18. Deploy!
+18. Code website
+
+19. Deploy!
